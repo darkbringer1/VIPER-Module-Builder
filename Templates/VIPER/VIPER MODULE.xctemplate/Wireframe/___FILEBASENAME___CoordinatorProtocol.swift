@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ___VARIABLE_moduleName___ServiceProtocol {}
-
-final class ___VARIABLE_moduleName___Service: ___VARIABLE_moduleName___ServiceProtocol {}
+protocol ___VARIABLE_moduleName___CoordinatorProtocol: AnyObject {
+    // Using coordinator layer to navigate through the app
+}

@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ___VARIABLE_moduleName___ModuleBuilder {
+enum ___VARIABLE_moduleName___ModuleBuilder {
     static func generate() -> UIViewController? {
         let wireframe: ___VARIABLE_moduleName___WireframeProtocol = ___VARIABLE_moduleName___Wireframe()
         let service: ___VARIABLE_moduleName___ServiceProtocol = ___VARIABLE_moduleName___Service()

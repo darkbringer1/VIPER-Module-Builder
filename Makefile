@@ -7,4 +7,7 @@ install_viper_templates:
 	cp -R -f $(VIPER_TEMPLATE_DIR) $(XCODE_USER_TEMPLATES_DIR)
 
 uninstall_templates: 
-		rm -R -f $(XCODE_USER_TEMPLATES_DIR)/$(VIPER_TEMPLATE_DIR)
+	rm -R -f $(XCODE_USER_TEMPLATES_DIR)/$(VIPER_TEMPLATE_DIR)
+
+uninstall_all_templates:
+	rm -R -f $(XCODE_USER_TEMPLATES_DIR)
